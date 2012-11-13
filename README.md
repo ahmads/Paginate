@@ -15,23 +15,25 @@ optionally with a specific `Number` of items per page.
 
 
 ##Example:
+
+```js
+// create some fake data
+var fakeData = new Array(32)
 	
-	// create some fake data
-	var fakeData = new Array(32)
+// create a Paginate object
+var pager = new Paginate(fakeData)
 	
-	// create a Paginate object
-	var pager = new Paginate(fakeData)
-	
-	// print all the pages
-	while(pager.hasNext())
-		console.log(pager.next())
+// print all the pages
+while(pager.hasNext())
+	console.log(pager.next())
 		
-	// get page 1
-	console.log(pager.page(1))
+// get page 1
+console.log(pager.page(1))
 	
-	//then
-	console.log(pager.next()) // this will print page 2
-	
+//then
+console.log(pager.next()) // this will print page 2
+```
+
 ## License 
 
 (The MIT License)
