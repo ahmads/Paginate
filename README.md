@@ -11,7 +11,7 @@ optionally with a specific `Number` of items per page.
 
     * `prev()` - Returns the previous page as Array.
 
-    * `hasNext()` - Checks if there is a next page as Array.
+    * `hasNext()` - Checks if there is a next page.
 
 
 ##Example:
