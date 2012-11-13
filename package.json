@@ -1,0 +1,24 @@
+{
+  "name": "Paginate",
+  "version": "0.0.1",
+  "description": "A Simple JavaScript utility to provide pagination for Arrays.",
+  "main": "Paginate.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -R 'spec'"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "repository": "",
+  "author": "Ahmad Salman",
+  "license": "MIT",
+  "keywords": [
+    "Array",
+    "Arrays",
+    "pager",
+    "paginate"
+  ]
+}
